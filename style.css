@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header-img {
+    height: 35px;
+    width: auto;
+    margin: 20px;
+}
+
+#nav-bar ul {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 50px;
+}
+
+.nav-link {
+    list-style: none;
+    margin: 0 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+     margin: 10px;
+}
+
+#email {
+    position: relative;
+    left: 40%;
+    padding: 5px 20px 5px 20px;
+}
+
+#submit {
+    position: relative;
+    top: 50px;
+    left: 28%;
+    padding: 8px;
+    background: yellow;
+    font-family: 'Goldman',
+    cursive;
+}
+
+#submit:hover {
+    background: orange;
+}
+
+
+.col-1{
+    display: flex;
+    margin-top: 6%;
+    }
+
+ .logo>img {
+ width: 100%;
+ height: 100%;
+ max-width: 300px;
+ display: flex;
+ justify-content: center;
+align-items: center;
+text-align: center;
+margin-left: 20px;
+} 
+
+div.icon { 
+ /* width: 60vw; */
+ font-size: 50px;
+ padding: 0%;
+}
+
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+}
+
+#features .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+
+#title{
+    display: flex;
+}
+
+.icon{
+position: relative;
+left: 5%;
+}
+
+.col-2 {
+    display: flex;
+}
+
+.col-3{
+    display: flex;
+}
+
+#video{
+  position: relative;
+  left: 35%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.list {
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.list ul li {
+    list-style: none;
+    padding: 15px 50px;
+}
+
+.listBtn {
+    padding: 10px 20px;
+    background-color: #fd8c04;
+}
+
+#price {
+    display: flex;
+    margin: 0 12%;
+    flex-wrap: wrap;
+}
+
+.footerTitle ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footerTitle ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+.footerDes ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footerDes ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+footer {
+    position: relative;
+    top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    #nav-bar ul {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .nav-link {
+        text-align: center;
+        position: relative;
+        top: 25px;
+    }
+
+    #submit{
+        position: relative;
+     
+    }
+
+    #email{
+        position: relative;
+        left: 27%;
+        margin: 10px;
+    }
+
+    #header-img{
+      margin-left: 60px;
+    }
+
+}
